@@ -66,6 +66,10 @@ header #images {
     margin-top: 20px;
 }
 
+#articles div {
+    max-width: 450px;
+}
+
 .title {
     margin-top: 50px;
     font-size: 15pt;
@@ -121,4 +125,15 @@ header #images {
     text-align: center;
     margin-top: 20px;
     font-size: 20pt;
+}
+
+.btn {
+    display: block;
+    max-width: 150px;
+    font-size: 15pt;
+    background-color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
 }
