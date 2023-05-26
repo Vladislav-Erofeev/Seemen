@@ -1,0 +1,33 @@
+#form_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#form_section form {
+    display: flex;
+}
+
+#form_section .button {
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    padding: 10px;
+    border: none;
+    margin: 0;
+}
+
+#form_section .search_bar {
+    width: 800px;
+    font-size: 12pt;
+    padding: 10px;
+    border: black solid 2px;
+    margin: 0;
+}
+
+#form_section div:last-child {
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+}
+
+#links {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13pt;
+}
+
+#links div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+#links div:first-child input {
+    margin-top: 20px;
+    border: none;
+    border-bottom: solid;
+    width: 300px;
+    font-size: 16pt;
+    padding: 10px;
+}
+
+#links div p{
+    margin-top: 20px;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 170px;
+}
+
+#social div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

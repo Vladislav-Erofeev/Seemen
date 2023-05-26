@@ -1,0 +1,26 @@
+#special_offers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#special_offers img {
+    display: block;
+    width: 320px;
+    height: auto;
+}
+
+#special_offers h2 {
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#special_offers p {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: gray;
+}

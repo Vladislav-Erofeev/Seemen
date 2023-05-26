@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 11pt;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav li {
+    list-style-type: none;
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 90%;
+}
+
+main {
+    width: 90%;
+}
+
+header #images {
+    margin-top: 0;
+}
+
+#brands {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#brands img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;;
+}
+
+#sales {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    margin-top: 15px;
+    grid-gap: 10px;
+    width: 99%;
+}
+
+#sales img {
+    -webkit-box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
+}
+
+#articles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 15pt;
+}
+
+.title:last-of-type:after {
+    content: "";
+    display: block;
+    background-color: gray;
+    width: 96%;
+    height: 1px;
+}
+
+.article_image {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+#offers img {
+    display: block;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20pt;
+}
