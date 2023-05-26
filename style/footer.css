@@ -9,6 +9,15 @@ footer {
     font-size: 13pt;
 }
 
+#links p {
+    cursor: pointer;
+}
+
+#links p:hover {
+    text-decoration: underline;
+}
+
+
 #links div:first-child {
     display: flex;
     flex-direction: column;
