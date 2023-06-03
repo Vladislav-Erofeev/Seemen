@@ -13,4 +13,14 @@ nav ul {
 
 nav li {
     list-style-type: none;
+    cursor: pointer;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav div:last-child p:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

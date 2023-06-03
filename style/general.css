@@ -36,6 +36,12 @@ header #images {
     width: 100%;
     height: auto;
     overflow: hidden;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+#brands img:hover {
+    transform: scale(110%);
 }
 
 .banner {
@@ -58,6 +64,13 @@ header #images {
     -webkit-box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 10px 8px -7px rgba(34, 60, 80, 0.2);
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+#sales img:hover {
+    transform: scale(105%);
+    filter: brightness(105%);
 }
 
 #articles {
@@ -66,8 +79,17 @@ header #images {
     margin-top: 20px;
 }
 
-#articles div {
+#articles > div {
     max-width: 450px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding: 11px;
+}
+
+#articles > div:hover {
+    transform: scale(102%);
+    border: solid 1px;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .title {
@@ -90,6 +112,7 @@ header #images {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .category {
@@ -119,6 +142,12 @@ header #images {
 #offers img {
     display: block;
     width: 100%;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+#offers img:hover {
+    transform: scale(105%);
 }
 
 #title {
@@ -136,4 +165,17 @@ header #images {
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border: solid gray 2px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    border: solid 2px;
+}
+
+.btn:active {
+    background-color: black;
+    color: white;
 }

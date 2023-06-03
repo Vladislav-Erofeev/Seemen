@@ -14,12 +14,27 @@
 #for_you img:nth-child(1) {
     grid-row: 1 /span 2;
     grid-column: 1/ span 2;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+#for_you > img:nth-child(1):hover {
+    filter: brightness(108%);
 }
 
 #for_you .item {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transition: 0.2s ease-in-out;
+    padding: 11px;
+    cursor: pointer;
+}
+
+#for_you .item:hover {
+    transform: scale(102%);
+    border: solid 1px;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .price {

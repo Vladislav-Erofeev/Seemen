@@ -10,12 +10,24 @@
     display: block;
     width: 320px;
     height: auto;
+    transition: 0.15s ease;
+}
+
+#special_offers img:hover {
+    transform: scale(105%);
+    filter: brightness(105%);
+    cursor: pointer;
 }
 
 #special_offers h2 {
     font-size: 15pt;
     margin-top: 10px;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+#special_offers h2:hover {
+    text-decoration: underline;
 }
 
 #special_offers p {
@@ -24,3 +36,4 @@
     margin-left: 10px;
     color: gray;
 }
+

@@ -34,7 +34,7 @@ footer {
     padding: 10px;
 }
 
-#links div p{
+#links div p {
     margin-top: 20px;
 }
 
@@ -50,4 +50,13 @@ footer {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+#social img {
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+#social img:hover {
+    transform: scale(110%);
 }

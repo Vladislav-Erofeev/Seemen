@@ -17,6 +17,16 @@
     padding: 10px;
     border: none;
     margin: 0;
+    cursor: pointer;
+}
+
+#form_section .button:hover {
+    background-color: #444444;
+    text-decoration: underline;
+}
+
+#form_section .button:active {
+    background-color: #262626;
 }
 
 #form_section .search_bar {
@@ -30,4 +40,13 @@
 #form_section div:last-child {
     display: flex;
     gap: 15px;
+}
+
+#form_section img {
+    transition: 0.2s ease;
+}
+
+#form_section img:hover {
+    transform: scale(110%);
+    cursor: pointer;
 }

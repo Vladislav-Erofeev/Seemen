@@ -36,3 +36,13 @@
 #categories img:nth-child(6) {
     grid-area: g;
 }
+
+#categories img {
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+#categories img:hover {
+    transform: scale(105%);
+    filter: brightness(105%);
+}
